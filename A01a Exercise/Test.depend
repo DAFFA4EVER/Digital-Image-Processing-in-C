@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1600227034 source:d:\kuliah telkom university\c language\digital image processing a\test\pbm.c
+	"includes.h"
+
+1665063439 d:\kuliah telkom university\c language\digital image processing a\test\includes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<float.h>
+	"ppm.h"
+	"pgm.h"
+	"pbm.h"
+	"varmean.h"
+
+1665054781 d:\kuliah telkom university\c language\digital image processing a\test\ppm.h
+
+1600227034 d:\kuliah telkom university\c language\digital image processing a\test\pgm.h
+
+1600227034 d:\kuliah telkom university\c language\digital image processing a\test\pbm.h
+
+1600227034 source:d:\kuliah telkom university\c language\digital image processing a\test\pgm.c
+	"includes.h"
+
+1600227034 source:d:\kuliah telkom university\c language\digital image processing a\test\ppm.c
+	"includes.h"
+
+1665067610 source:d:\kuliah telkom university\c language\digital image processing a\test\main.c
+	"includes.h"
+
+1665067233 d:\kuliah telkom university\c language\digital image processing a\test\varmean.h
+
+1665067234 source:d:\kuliah telkom university\c language\digital image processing a\test\varmean.c
+	"includes.h"
+
+1665067610 source:d:\kuliah telkom university\c language\digital image processing a\a01a exercise\main.c
+	"includes.h"
+
+1665063439 d:\kuliah telkom university\c language\digital image processing a\a01a exercise\includes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<float.h>
+	"ppm.h"
+	"pgm.h"
+	"pbm.h"
+	"varmean.h"
+
+1665054781 d:\kuliah telkom university\c language\digital image processing a\a01a exercise\ppm.h
+
+1600227034 d:\kuliah telkom university\c language\digital image processing a\a01a exercise\pgm.h
+
+1600227034 d:\kuliah telkom university\c language\digital image processing a\a01a exercise\pbm.h
+
+1665067233 d:\kuliah telkom university\c language\digital image processing a\a01a exercise\varmean.h
+
+1600227034 source:d:\kuliah telkom university\c language\digital image processing a\a01a exercise\pbm.c
+	"includes.h"
+
+1600227034 source:d:\kuliah telkom university\c language\digital image processing a\a01a exercise\pgm.c
+	"includes.h"
+
+1600227034 source:d:\kuliah telkom university\c language\digital image processing a\a01a exercise\ppm.c
+	"includes.h"
+
+1665067234 source:d:\kuliah telkom university\c language\digital image processing a\a01a exercise\varmean.c
+	"includes.h"
+
