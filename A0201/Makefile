@@ -1,0 +1,25 @@
+SHELL		= /bin/sh
+CC     		= gcc
+CFLAGS 		= -g -Wall
+LDFLAGS		= -g -Wall -lm
+
+#--------------- You must write all linked file name ----------------
+SRCS	= main.c ppm.c pgm.c pbm.c to_colorize.c to_gray.c
+#--------------------------------------------------------------------
+OBJS    = ${SRCS:.c=.o} 
+
+#-------- Please write executive file name and directory ------------
+DIR     = ./
+BINS    = a02-01
+#--------------------------------------------------------------------
+
+all: ${BINS}
+
+${BINS}: ${OBJS}
+	${CC} -o ${DIR}$@ ${OBJS} ${LDFLAGS}
+
+.c.o:
+	${CC} ${CFLAGS} -c $<
+
+clean:
+	rm -f ${OBJS} core
