@@ -37,19 +37,19 @@ int niblackBinalization(Bitmap* im, Bitmap* om)
 int thNiblack(unsigned char* img)
 {
 	/***********/
-	double m = 0, var = 0, th = 0, k = -0.2;
+	double m = 0, var = 0, th = 0, k = -0.2, n = N * N;
 
 	//mean
-	for(int x = 0; x < N; x++){
+	for(int x = 0; x < n; x++){
 		m = m + img[x];
 	}
-	m = m / N;
+	m = m / n;
 
 	//var
-	for(int i = 0; i < N; i++){
+	for(int i = 0; i < n; i++){
 		var = var + pow((img[i]-m),2);
 	}
-	var = var / N;
+	var = var / n;
 	th = m-k*sqrt(var);
 	/***********/
 	return th;
